@@ -1,0 +1,70 @@
+.heading{
+    font-size: 50px;
+    color: orangered;
+    border: 2px solid;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 10px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    
+}
+.todoapp{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#153677,#4e085f);
+    padding: 10px;
+}
+.appbody{
+    width:100% ;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 30px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #edeef0;
+    border-radius: 30px;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+.btn{
+border: none;
+outline: none;
+padding: 10px 15px;
+background: #ff5945;
+color: #fff;
+font-size: 20px;
+border-radius: 10px;
+}
+.line{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 5px;
+
+}
+/* .dlt{
+    display: flex;
+    font-size: larger;
+    justify-content: flex-end;
+    border-radius: 10px;
+    border: 1px solid red;
+    background-color: red;
+} */
+
